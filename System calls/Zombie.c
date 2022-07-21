@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<unistd.h>
-#include<sys/types.h>
+#include<unistd.h>//getpid
+#include<sys/types.h>//pid_t
 
 int main(){
 
