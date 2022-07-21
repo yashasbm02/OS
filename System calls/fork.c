@@ -4,10 +4,10 @@
 int main(){
     printf("Before fork\n");
     fork();
-    printf("After first fork\n");
+    printf("After first fork\n");//2^1=2
     fork();
-    printf("After second fork\n");
+    printf("After second fork\n");//2^2=4
     fork();
-    printf("After third fork\n");
+    printf("After third fork\n");//2^3=8
 
 }
