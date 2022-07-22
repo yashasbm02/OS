@@ -23,6 +23,8 @@ int main(){
     else{
         printf("[PARENT] This is parent process\n");
         printf("[PARENT] my pid is %d\n",my_pid);
+        wid=wait(NULL);
+        printf("[PARENT] Resuming after terminantion of %d\n",wid);
         printf("[PARENT] my parent pid is %d\n",parent_pid);
         printf("[PARENT] my child's pid is %d\n",child_pid);
         printf("[PARENT] i=%d",++i);
